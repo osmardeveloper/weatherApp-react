@@ -66,12 +66,12 @@ font-size: 25px;
 @media(max-width: 600px) {
 
     .weatherCard {
-        padding: 20px 30px;
+        padding: 20px 32px;
     }
     
 .weatherCard__place {
     margin: 12px 10px 0 10px;
-    font-size: 20px;
+    font-size: 25px;
     }
     
     .weatherCard__title {
