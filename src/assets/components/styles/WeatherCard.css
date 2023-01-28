@@ -13,16 +13,16 @@
     display: flex;
     align-items: end;
     gap: 40px;
-    margin: 0 22px 20px 0;
+    margin: 0 22px 5px 0;
 }
 
 .weatherCard__place {
 margin: 12px 0 30px 0;
-font-size: 32px;
+font-size: 28px;
 }
 
 .weatherCard__title {
-    font-size: 35px;
+    font-size: 33px;
     margin: 3px 0;
 }
 
@@ -30,19 +30,32 @@ font-size: 32px;
     width: 220px;
     height: 220px;
     position: relative;
+    float: right;
 }
-  
 
 .weatherCard__img img{
     width: 230px;
     height: 230px;
-    /* centrar vertical y horizontalmente */
     position: absolute;
     top: 25%;
     left: 50%;
-    margin: -105px 0 0 -110px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
-
+    margin: -105px 0 0 -110px;
+    animation: movimiento 2.9s linear infinite; 
 }
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(12px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+  
+
 
 .weatherCard__temp {
     font-size: 40px;
@@ -86,7 +99,7 @@ font-size: 32px;
     cursor: pointer;
     transition: transform 300ms ease;
     border-radius: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: bold;
  }
 
