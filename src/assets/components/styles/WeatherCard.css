@@ -1,25 +1,31 @@
 .weatherCard {
-    border: 1px solid #000;
-    padding: 20px;
+    border: 1px solid rgb(255, 241, 241);
+    padding: 20px 40px;
     text-align: center;
-    background-color: #000;
+    background-color: rgba(0,0,0,0.8);
     color: #ffffff;
     border-radius: 30px;
+    box-shadow: 3px 10px 10px 10px rgba(0,0,0,0.8);
 }
 
 .weatherCard__place {
-margin-bottom: 0;
+margin: 2px 0 0 0;
 font-size: 25px;
 }
 
 .weatherCard__title {
     font-size: 30px;
-    margin-top: 5px;
+    margin: 2px 0;
+}
+
+.weatherCard__img img{
+    width: 200px;
+    height: 200px;
 }
 
 .weatherCard__temp {
     font-size: 32px;
-    margin: 4px 0;
+    margin: 0;
 }
 
 .weatherCard__list{
@@ -38,14 +44,14 @@ font-size: 25px;
 
 .weatherCard__description {
     color: rgb(29, 224, 97);
-    font-size: 22px;
-    margin: 12px 0 ;
+    font-size: 20px;
+    margin: 8px 0 ;
 }
 
 .weatherCard__btn {
     border: none;
     padding: 12px 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     background-color: rgb(16, 116, 152);
     cursor: pointer;
@@ -58,6 +64,10 @@ font-size: 25px;
 }
 
 @media(max-width: 600px) {
+
+    .weatherCard {
+        padding: 20px;
+    }
     
 .weatherCard__place {
     margin-bottom: 0;
@@ -66,22 +76,28 @@ font-size: 25px;
     
     .weatherCard__title {
         font-size: 25px;
-        margin-top: 5px;
+        margin: 0;
     }
     
     .weatherCard__temp {
         font-size: 30px;
-        margin: 4px 0;
+        margin: 0;
     }
 
     .weatherCard__description {
-        font-size: 20px;
-        margin: 12px 0 ;
+        font-size: 18px;
+        margin: 10px 0 ;
     }
 
     .weatherCard__btn {
         font-size: 15px;
         color: #ffffff;
+        font-weight: bold;
+    }
+
+    .weatherCard__img img{
+        width: 150px;
+        height: 150px;
     }
     
   
