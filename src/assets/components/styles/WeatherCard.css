@@ -128,7 +128,7 @@ font-size: 32px;
         font-size: 32px;
         margin: 0 0 22px 0;
         position: absolute;
-        top: 94%;
+        top: 90%;
         left: 50%;
         margin: 0px 0 0 -56px; 
     }
@@ -139,20 +139,23 @@ font-size: 32px;
     }
 
     .weatherCard__btn {
-        font-size: 14px;
+        font-size: 13px;
         color: #ffffff;
         font-weight: bold;
-        padding: 12px 18px;
+        padding: 11px 16px;
         margin: 0 0 3px 0;
     }
 
     .weatherCard__img img{
         width: 160px;
         height: 160px;
-        position: relative;
         top: 0;
         left: 0;
         margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin: -50px 0 0 -73px; 
     }
 
     .weatherCard__img {
