@@ -9,13 +9,13 @@
 }
 
 .weatherCard__place {
-margin: 2px 0 0 0;
+margin: 12px 0 0 0;
 font-size: 25px;
 }
 
 .weatherCard__title {
     font-size: 30px;
-    margin: 2px 0;
+    margin: 3px 0;
 }
 
 .weatherCard__img img{
