@@ -79,7 +79,7 @@ font-size: 32px;
 
 .weatherCard__btn {
     border: none;
-    padding: 14px 32px;
+    padding: 14px 24px;
     font-size: 16px;
     color: #ffffff;
     background-color: rgb(15, 90, 117);
@@ -125,12 +125,12 @@ font-size: 32px;
     }
 
     .weatherCard__temp {
-        font-size: 35px;
+        font-size: 32px;
         margin: 0 0 22px 0;
         position: absolute;
-        top: 88%;
+        top: 94%;
         left: 50%;
-        margin: 0px 0 0 -65px; 
+        margin: 0px 0 0 -56px; 
     }
 
     .weatherCard__description {
@@ -147,8 +147,8 @@ font-size: 32px;
     }
 
     .weatherCard__img img{
-        width: 170px;
-        height: 170px;
+        width: 160px;
+        height: 160px;
         position: relative;
         top: 0;
         left: 0;
@@ -156,8 +156,8 @@ font-size: 32px;
     }
 
     .weatherCard__img {
-        width: 170px;
-        height: 170px;
+        width: 160px;
+        height: 140px;
         position: relative;
         top: 0;
         left: 0;
