@@ -66,11 +66,11 @@ font-size: 25px;
 @media(max-width: 600px) {
 
     .weatherCard {
-        padding: 20px;
+        padding: 20px 30px;
     }
     
 .weatherCard__place {
-    margin-bottom: 0;
+    margin: 12px 10px 0 10px;
     font-size: 20px;
     }
     
@@ -80,7 +80,7 @@ font-size: 25px;
     }
     
     .weatherCard__temp {
-        font-size: 30px;
+        font-size: 28px;
         margin: 0;
     }
 
