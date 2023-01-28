@@ -1,0 +1,13 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    padding: 20px;
+    /* background-color: rgb(101, 159, 161); */
+    /* background-image: url("../public/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgba(0,0,0,0.2);
+}

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-image: url("../public/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
