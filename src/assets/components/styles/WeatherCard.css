@@ -79,16 +79,16 @@ font-size: 32px;
 
 .weatherCard__btn {
     border: none;
-    padding: 12px 30px;
-    font-size: 18px;
+    padding: 14px 32px;
+    font-size: 16px;
     color: #ffffff;
-    background-color: rgb(16, 116, 152);
+    background-color: rgb(15, 90, 117);
     cursor: pointer;
     transition: transform 300ms ease;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-bottom: 15px;
     font-weight: bold;
-}
+ }
 
 .weatherCard__btn:hover {
     transform: scale(1.05);
